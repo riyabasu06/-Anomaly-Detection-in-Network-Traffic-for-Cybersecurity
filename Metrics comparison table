@@ -1,0 +1,53 @@
+This comparison table showcases the performance of different models on the test set. Here's a summary of the insights:
+
+ Model Performance:
+1. Random Forest:
+   - Accuracy: 99.84%
+   - Precision: 99.94%
+   - Recall: 99.76%
+   - F1-Score: 99.85%
+   - Insight: Excellent overall performance with balanced metrics.
+
+2. SVM:
+   - Accuracy: 99.68%
+   - Precision: 99.91%
+   - Recall: 99.50%
+   - F1-Score: 99.70%
+   - Insight: Strong performance, slightly behind Random Forest.
+
+3. Logistic Regression:
+   - Accuracy: 98.85%
+   - Precision: 99.42%
+   - Recall: 98.43%
+   - F1-Score: 98.93%
+   - Insight: A reliable, simpler model with lower complexity.
+
+4. k-NN:
+   - Accuracy: 99.60%
+   - Precision: 99.64%
+   - Recall: 99.61%
+   - F1-Score: 99.63%
+   - Insight: Performs comparably to SVM.
+
+5. Naive Bayes:
+   - Accuracy: 86.76%
+   - Precision: 80.21%
+   - Recall: 99.88%
+   - F1-Score: 88.97%
+   - Insight: High recall but lower precision, leading to more false positives.
+
+6. XGBoost:
+   - Accuracy: 99.90%
+   - Precision: 100.00%
+   - Recall: 99.82%
+   - F1-Score: 99.91%
+   - Insight: Best performer overall with the highest metrics.
+
+
+
+ Recommendations:
+- Best Model: XGBoost delivers the best accuracy and balanced metrics, making it suitable for deployment.
+- Backup Option: Random Forest is a close contender with comparable metrics.
+- Simpler Models: Logistic Regression can be used if interpretability is a priority.
+- High Recall Needs: Naive Bayes is useful if missing any anomalies is critical but comes with many false positives.
+
